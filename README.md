@@ -240,7 +240,7 @@ Number of trades, win rate, average return on premium, total P&L, maximum drawdo
 ## 10. Installation
 
 ```bash
-git clone <this repository's URL>
+git clone https://github.com/devjanyani/options-vol-research
 cd options-vol-research
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
