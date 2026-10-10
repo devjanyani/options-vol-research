@@ -1,0 +1,10 @@
+[project]
+name = "options-vol-research"
+version = "1.0.0"
+description = "Options Volatility Research Platform: implied vs realized volatility research, anomaly scanning and honest backtesting."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-q"
